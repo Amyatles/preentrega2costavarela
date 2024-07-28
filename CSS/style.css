@@ -1,0 +1,170 @@
+.titulo {
+    color: #E6A4B4;
+    font-family: "Laila", serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.navbar {
+    font-size: 20px;
+    background-color: #E6A4B4;
+    height: 53px;
+    font-family: "Laila", serif;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 33%;
+    margin: auto;
+
+}
+.navbar a {
+    padding: 10px;
+    color: #FFF8E3;
+    text-decoration: none;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li a:hover {
+    color: #98e4eb;
+    border-bottom: #FFF8E3;
+    margin-left: 20px;
+}
+
+.banner {
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+
+#banner {
+    height: 250px;
+    width: 100%;
+    opacity: 95%;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1196px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 386.09px 386.09px 386.09px;
+    grid-template-rows: 283.5px 283.5px;
+    gap: 20px;
+}
+
+.loren {
+    padding: 20px;
+    border-radius: 11px;
+    font-size: 20px;
+    background-color: #f9e3e9;
+    float: right;
+
+}
+
+.pie {
+    width: 90%;
+    max-width: 1196px;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+
+.pie ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+
+}
+
+.pie ul li{
+    margin-bottom: 10px;
+}
+
+.menu2 {
+    flex: 1;
+
+}
+
+.rrss {
+    text-align: right;
+}
+
+.bg-menu {
+    background-color: #E6A4B4;
+}
+.pie{
+background-color: #E6A4B4;
+display:flexbox 4;
+}
+
+.carousel {
+    width: 100%;
+    height: 111px; /* Ajuste de altura para todo el carrusel */
+}
+
+.carousel-inner {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll; /* Permite el desplazamiento horizontal */
+    scroll-snap-type: x mandatory; /* Habilita el desplazamiento suave */
+    -webkit-overflow-scrolling: touch; /* Mejora la experiencia en dispositivos táctiles */
+}
+
+.carousel-item {
+    min-width: 348px; /* Ajusta el ancho mínimo del ítem */
+    height: 111px; /* Asegura que cada item tenga la misma altura */
+    flex: 0 0 auto; /* Evita que los ítems se estiren */
+    scroll-snap-align: start; /* Alinea los ítems al inicio del contenedor */
+}
+
+.carousel-content {
+    display: flex;
+    align-items: center;
+    height: 100%; /* Ajusta la altura para que ocupe todo el contenedor */
+    padding: 0 15px; /* Espaciado interno para el contenido */
+}
+
+.small-img {
+    width: 80px; /* Ajusta el tamaño de la imagen */
+    height: 80px; /* Ajusta el tamaño de la imagen */
+    object-fit: cover; /* Asegura que la imagen mantenga su proporción */
+    border-radius: 10px; /* Añade bordes redondeados si lo deseas */
+    margin-right: 15px; /* Espaciado entre la imagen y el texto */
+}
+
+.carousel-text {
+    flex: 1; /* Permite que el texto ocupe el resto del espacio */
+}
+
+.carousel-text h5 {
+    margin: 0;
+    font-size: 1.2em; /* Ajusta el tamaño del texto */
+}
+
+.carousel-text p {
+    margin: 0;
+    font-size: 0.9em; /* Ajusta el tamaño del texto */
+    color: #666; /* Color del texto de descripción */
+}
+
+.carousel-control-prev-icon{
+    background-color: #E6A4B4;
+    height: 100%;
+    
+}
+.carousel-control-next-icon {
+    background-color: #E6A4B4;
+    height: 100%;
+}
